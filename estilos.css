@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+#primero {
+    width: 50%;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    background-image: radial-gradient(circle at top left, #3957f1, #5974ff, #8a9af1, #c9d1ff, white 75%);
+}
+
+/* #gradiante{
+    width: 50%;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    background-image: radial-gradient(circle at top left, #3957f1, #5974ff, #8a9af1, #c9d1ff, white 75%);
+} */
+
+#primero img {
+    padding-top: 2rem;
+}
+ h1 {
+    font-weight: 700;
+    font-size: 3em;
+    color: #15163d;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+ h2{
+    font-weight: 200;
+    font-size: 1.2em;
+    color: #15163d;
+    padding-bottom: 3rem;
+
+}
+
+button {
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    background-color: #04146c;
+    border-radius: 10px;
+    padding: 15px 35px;   
+}
+
+#segundo{
+    width: 50%;
+}
+nav {
+    width: 100%;
+}
+nav p {
+    text-align: right;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+
+}
+p a {
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+#segundafoto {
+    /* text-align: right; */
+    width: 100%;
+    /* padding-left: 5rem; */
+    padding-right: 5rem;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+#tercero, #septimo {
+    width: 50%;
+    padding-top: 5rem;
+    text-align: center;
+    padding-left: 5rem;
+}
+
+#cuarto {
+    width: 50%;
+    padding-top: 5rem;
+    text-decoration: center;
+    padding: 5rem 5rem;
+
+}
+
+#cuarto h1 {
+    padding-top: 0;
+    padding-left: 2rem;
+}
+
+#cuarto h2 {
+    padding-left: 2rem;
+}
+
+#quinto {
+    width: 50%;
+    padding-left: 6rem;
+}
+#quinto h1 {
+    padding-top: 2rem;
+}
+
+#sexto {
+    width: 50%;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+#testimonios {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #15163d;
+    padding-top: 5rem;
+}
+
+#testimonios h3{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #15163d;
+    padding-top: 1rem;
+}
+
+#opiniones {
+    display: flex;
+    color: #15163d;
+    font-weight: 200;
+    align-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#opiniones p {
+    font-weight: 400;
+}
+
+#octavo {
+    width: 100%;
+    padding-left: 200px;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
+    color: white;
+    padding-left: 80px;
+    width: 2rem;
+    padding-top: 40px;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #15163d;
+    display: flex;
+}
+
+#linkuno {
+    color: white;
+    /* padding: 30px; */
+       
+}
+
+#linkdos {
+    color: white;
+    padding-left: 200px;
+    padding-top: 40px;
+    
+}
+
+#derechos{
+    color: white;
+    font-weight: 200;
+    font-size: 1.1em;
+    padding-top: 370px;
+    padding-left: 70px;
+    
+    
+}
+
+@media (max-width: 768px){
+    header, section ,footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    #primero {
+        order: 1;
+        width: 100%;
+        text-align: center;
+
+    }
+    #segundo {
+        order: 2;
+        width: 100%;
+        text-align: center;
+
+    }
+    #tercero{
+        order: 4;
+        width: 100%;
+        text-align: center;
+
+    }
+    #cuarto {
+        order: 3;
+        width: 100%;
+        text-align: center;
+
+    }
+    #quinto {
+        order: 5;
+        width: 100%;
+        text-align: center;
+
+        
+    }
+    #sexto{
+        order: 6;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    #septimo, #octavo{
+        display: none;
+        
+    }
+
+    #octvano 
+    #derechos, #linkuno, #linkdos {
+        padding: 0;
+        text-align: center;
+    }
+    #linkdos{
+        order: 1;
+        padding-top: 10px;
+    }
+   #linkuno>a {
+    width: 100%;
+    padding-left: 0;
+   }
+   #linkuno{
+    order: 2;
+   }
+   #derechos{
+    order: 3;
+    padding-top: 10px;
+   }
+}
