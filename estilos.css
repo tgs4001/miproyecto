@@ -230,7 +230,7 @@ footer {
 
 
 
-@media (max-width: 640px){
+@media (max-width: 768px){
     header, section ,footer {
         flex-direction: column;
         text-align: center;
@@ -257,7 +257,7 @@ footer {
     p>a:visited{
         color: #04146c;
     }
-}
+
 
     #primero {
         order: 1;
@@ -324,3 +324,9 @@ footer {
     order: 3;
     padding-top: 10px;
    }
+
+   img{
+    width: auto;
+    height: auto;
+   }
+}
