@@ -338,7 +338,8 @@ footer {
    }
    #derechos{
     order: 3;
-    padding-top: 10px;
+    padding-top: 10px; 
+    padding-left: 0;
    }
 
    img{
@@ -353,19 +354,21 @@ footer {
    }
    #opiniones{
     width: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
    }
    .cajas {
     width: 100%;
-    margin: 0;
+    padding-top: 20px;
    }
    #testimonios h3{
     font-size: 2.5em;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 10px;
 
    }
    #testimonios a{
     margin: 0;
-    padding-left: 60px;
+    padding-left: 10px;
    }
     }
