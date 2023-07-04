@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -229,7 +230,6 @@ footer {
 }
 
 
-
 @media (max-width: 768px){
     header, section ,footer {
         flex-direction: column;
@@ -269,26 +269,39 @@ footer {
     #segundo {
         order: 2;
         width: 100%;
-        text-align: left;
+        text-align: center;
 
+    }
+
+    #segundo img{
+        width: 80%;
     }
     #tercero{
         order: 4;
         width: 100%;
         text-align: center;
         padding-left: 0;
+        padding-top: 0;
 
+    }
+
+    #tercero img{
+        width: 70%;
     }
     #cuarto {
         order: 3;
         width: 100%;
         text-align: center;
+        padding-bottom: 0;
 
+    
+   
     }
     #quinto {
         order: 5;
         width: 100%;
         text-align: center;
+        padding: 0;
 
         
     }
@@ -297,6 +310,9 @@ footer {
         width: 100%;
         text-align: center;
 
+    }
+    #sexto img{
+        width: 70%;
     }
 
     #septimo, #octavo{
@@ -329,4 +345,27 @@ footer {
     width: auto;
     height: auto;
    }
-}
+   .cajas {
+    width: 100%;
+
+    margin: 0;
+
+   }
+   #opiniones{
+    width: 100%;
+   }
+   .cajas {
+    width: 100%;
+    margin: 0;
+   }
+   #testimonios h3{
+    font-size: 2.5em;
+    text-align: center;
+    padding-left: 50px;
+
+   }
+   #testimonios a{
+    margin: 0;
+    padding-left: 60px;
+   }
+    }
